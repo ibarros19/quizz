@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Ivi's JavaScript fundamentals quizz</title>
+</head>
+<body>
+    <!-- timer  -->
+   <bold><h1> <div id='time'style="color:red;">
+        Time: 60</div></p></h1></bold>
+    
+    <!-- Quizz presentation block -->
+    <div style="width:800px; margin:0 auto;">
+        <div id='start-prompt'>
+            <h1>Test your knowledge about JavaScript</h1>
+            <h3>Press Start to begin the quizz</h3>
+            <button class='btn btn-primary btn-color' id='start'>Start</button>
+            <h3><i>If you pick a wrong answer, 10 seconds will be removed from the time left.</i></h3>
+        </div>
+        
+    <!-- questions and answers block -->
+        <div id='question-container' style='display: none'>
+            <h3  id='question-text'></h3>
+            <div id='answers'></div>
+            <div id='result' style="display: none;"></div>
+        </div>
+        
+    <!-- Player's score -->
+        <div id='score-container' style='display: none'>
+            <h3>This is your score:</h3>
+            <div id='score'></div>
+            <div>
+                <form method="POST">
+                <div id="initials-input">
+                    <label for="initials">Enter your initials/name here: </label>
+                    <input type="text" name="initials" id="user-initials"/>
+                </div>
+                <br />
+                <div id="msg"></div>
+                <button id="record-score">Click here to save your score</button>
+                </form>
+            </div>
+        </div>
+
+    <!-- Score -->
+        <div id='hscore-container' style='display: none'>
+            <h3>User's High Scores</h3>
+            <div id='high-score'></div>
+            <button id='play-again'>Play Again</button>
+            <button id='clear'>Clear</button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+   
+    <script src='script.js'></script>
+</body>
+</html>

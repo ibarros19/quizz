@@ -9,4 +9,4 @@ JavaScript Fundamentals Quizz<br>
 <img src=1.png>
 <img src=2.png>
 
-<a href=" https://ibarros19.github.io/quizz/">Link to the live site</a>
+<a href="https://ibarros19.github.io/quizz/">Link to the live site</a>
